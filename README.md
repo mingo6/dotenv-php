@@ -21,7 +21,7 @@ Install
 Composer is suggested to use:
 
 ```
-composer require clarence/phpdotenv-dotphp
+composer require sobyte/dotenv-php
 ```
 
 You can also download the zip file and write your own autoloader.
