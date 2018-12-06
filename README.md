@@ -1,4 +1,3 @@
-About This [![](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp.svg?branch=master)](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp)
 ==========
 
 This is a optimize for `vlucas/phpdotenv` in PHP fastcgi application. 
@@ -57,7 +56,7 @@ It is very similar with `vlucas/phpdotenv`. After you have created a `.env.php` 
 ```php
 
 // assume .env.php is in current directory (__DIR__)
-(new \Clarence\DotEnv\DotEnv(__DIR__))->load();
+(new \Sobyte\DotEnv\DotEnv(__DIR__))->load();
 
 ```
 

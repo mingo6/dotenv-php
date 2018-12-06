@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Clarence\DotEnv;
+namespace Sobyte\DotEnv;
 
 
 
@@ -29,7 +29,7 @@ class DotEnvTest extends \PHPUnit_Framework_TestCase
 
     public function env_data_provider()
     {
-        (new \Clarence\DotEnv\DotEnv(__DIR__))->load();
+        (new \Sobyte\DotEnv\DotEnv(__DIR__))->load();
 
         $varList = require(__DIR__ . DIRECTORY_SEPARATOR . '.env.php');
         foreach ($varList as $key => &$value) {

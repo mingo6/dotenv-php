@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Clarence\DotEnv;
+namespace Sobyte\DotEnv;
 
 /**
  * Load environment variables from .env.php
